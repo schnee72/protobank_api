@@ -22,5 +22,11 @@ namespace protobank_api.Controllers
         {
             return "pong2";
         }
+
+        [HttpGet("three")]
+        public string GetThree()
+        {
+            return "pong3";
+        }
     }
 }
